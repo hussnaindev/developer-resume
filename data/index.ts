@@ -1,14 +1,14 @@
-import { v4 as uuidv4 } from 'uuid';
 import { IData } from '@/types';
+import { v4 as uuidv4 } from 'uuid';
 
 const userData: IData = {
 	header: {
-		name: 'Muhammad Saad',
-		phoneNumber: '+490000000000',
-		location: 'Berlin, Germany',
-		email: 'mrsaadirfan@gmail.com',
-		linkedIn: 'linkedin.com/in/msaaddev/',
-		github: 'github.com/msaaddev'
+		name: 'Muhammad Hussnain Raza',
+		phoneNumber: '+923180114290',
+		location: 'Lahore, Pakistan',
+		email: 'hussnain444all@gmail.com',
+		linkedIn: 'linkedin.com/in/hussnain-raza/',
+		github: 'github.com/hussnaindev'
 	},
 	education: [
 		{
@@ -16,7 +16,7 @@ const userData: IData = {
 			degree: 'B.Sc. of Computer Sciences',
 			university: 'University of Engineering & Technology',
 			location: 'Lahore, Pakistan',
-			duration: 'Oct 2018 - May 2022'
+			duration: 'Oct 2019 - May 2023'
 		}
 	],
 	skills: [
@@ -33,12 +33,12 @@ const userData: IData = {
 				'HTML',
 				'CSS',
 				'React',
-				'Next.js',
+				'Vue',
 				'Redux Toolkit',
-				'Tailwind CSS',
-				'Styled Components',
+				'MySQL',
 				'MongoDB',
 				'Node.js',
+				'AWS',
 				'REST APIs'
 			]
 		},
@@ -52,70 +52,45 @@ const userData: IData = {
 		{
 			id: uuidv4(),
 			designation: 'Software Engineer',
-			company: 'XYZ Company',
-			location: 'Berlin, Germany',
-			duration: 'Oct 2021 - May 2023',
+			company: 'DHives',
+			location: 'Lahore, Pakistan',
+			duration: 'March 2023 - Present',
 			tasks: [
-				`Analyzed system requirements to lead the <strong>development</strong> of 3 Java/J2EE projects, application enhancements, and various maintenance activities.`,
-				`Designed and developed a <a href="https://google.com">reporting system</a> based on Crystal Report and Java, generating an increase of 20% in efficiencv and performance rate.`,
-				`Analyzed system requirements to lead the <strong>development</strong> of 3 Java/J2EE projects, application enhancements, and various maintenance activities.`,
-				`Designed and developed a <a href="https://google.com">reporting system</a> based on Crystal Report and Java, generating an increase of 20% in efficiencv and performance rate.`,
-				`Analyzed system requirements to lead the <strong>development</strong> of 3 Java/J2EE projects, application enhancements, and various maintenance activities.`,
-				`Designed and developed a <a href="https://google.com">reporting system</a> based on Crystal Report and Java, generating an increase of 20% in efficiencv and performance rate.`,
-				`Analyzed system requirements to lead the <strong>development</strong> of 3 Java/J2EE projects, application enhancements, and various maintenance activities.`,
-				`Designed and developed a <a href="https://google.com">reporting system</a> based on Crystal Report and Java, generating an increase of 20% in efficiencv and performance rate.`,
-				`Analyzed system requirements to lead the <strong>development</strong> of 3 Java/J2EE projects, application enhancements, and various maintenance activities.`,
-				`Designed and developed a <a href="https://google.com">reporting system</a> based on Crystal Report and Java, generating an increase of 20% in efficiencv and performance rate.`,
-				`Analyzed system requirements to lead the <strong>development</strong> of 3 Java/J2EE projects, application enhancements, and various maintenance activities.`,
-				`Designed and developed a <a href="https://google.com">reporting system</a> based on Crystal Report and Java, generating an increase of 20% in efficiencv and performance rate.`
+				`Developed a Real Estate Portal using the MERN Stack, focusing on Mapbox Integration, Markers Clustering, State Management, Property Filters, and Layout Designing.`,
+				`Created a Content Creation Portal enabling users to generate, explore, and analyze social media content, integrating platforms such as YouTube, Meta (Facebook, Instagram), Tiktok and Twitter for post publishing and analytics.`,
+				`Managed database migrations utilizing the Sequelize library and collaborated with Chargify Service to oversee subscriptions and product payments`,
+				`Utilized AWS services including CloudWatch, Cognito, Secret Manager, Lambda, and SES, while implementing Logging, Request Tracing, and Monitoring within the project.`,
+				`Employed Datadog for custom metrics and monitoring, ensuring comprehensive performance analysis.`,
+				`Implemented Helm Charts for Deployments and employed Jest for mocking, unit testing, integration testing, and code coverage reports, ensuring robust and reliable project development.`,
+				`Demonstrated proficiency in various tools and technologies including Jest, AWS services, Datadog, and Helm Charts, enhancing project efficiency and reliability.`,
+				`Managed cronjobs and webhooks, ensuring scheduled tasks and real-time updates within the project ecosystem.`,
+				`Utilized Google Analytics and HubSpot for tracking user activities, setting up Google Ads conversion, and integrated FullStory for comprehensive user behavior analysis.`,
+				`Worked with LaunchDarkly for feature flagging, enabling controlled and phased feature releases within the application.`
 			]
 		},
 		{
 			id: uuidv4(),
-			designation: 'Software Engineer (Part-time)',
-			company: 'Major League Hacking Fellowship',
-			location: 'USA | Remote',
-			duration: 'Oct 2020 - Dec 2020',
+			designation: 'Software Engineer (Intern)',
+			company: '10Pearls',
+			location: 'Lahore, Pakistan',
+			duration: 'June 2022 - August 2022',
 			tasks: [
-				`Analyzed system requirements to lead the <strong>development</strong> of 3 Java/J2EE projects, application enhancements, and various maintenance activities.`,
-				`Designed and developed a <a href="https://google.com">reporting system</a> based on Crystal Report and Java, generating an increase of 20% in efficiencv and performance rate.`,
-				`Analyzed system requirements to lead the <strong>development</strong> of 3 Java/J2EE projects, application enhancements, and various maintenance activities.`
+				`Successfully completed an 8-week internship, contributing to the development of 'PULSE,' a web portal for company employees, by implementing a carpooling feature using AngularJS and .NET technologies.`,
+				`Played a pivotal role in resolving bugs and addressing issues within the project framework, ensuring seamless functionality and an optimal user experience.`,
+				`Collaborated on the real-time project 'PULSE,' demonstrating proficiency in AngularJS and .NET while enhancing the platform with new features and functionalities.`
 			]
 		}
 	],
 	projects: [
 		{
 			id: uuidv4(),
-			name: `<a href="https://github.com/msaaddev/jobboard">Jobboard</a>`,
-			desc: `Built a PWA with <strong>HTML, CSS, JavaScript, Next.js</strong>, <strong>Firebase Auth</strong>, and <strong>Firestore</strong> to help developers get hired. Integrated features like user authentication, separate company and applicant dashboards, job posting, and job deleting.`
-		},
-		{
-			id: uuidv4(),
-			name: `<a href="https://github.com/msaaddev/jobboard">Jobboard</a>`,
-			desc: `Built a PWA with <strong>HTML, CSS, JavaScript, Next.js</strong>, <strong>Firebase Auth</strong>, and <strong>Firestore</strong> to help developers get hired. Integrated features like user authentication, separate company and applicant dashboards, job posting, and job deleting.`
-		},
-		{
-			id: uuidv4(),
-			name: `<a href="https://github.com/msaaddev/jobboard">Jobboard</a>`,
-			desc: `Built a PWA with <strong>HTML, CSS, JavaScript, Next.js</strong>, <strong>Firebase Auth</strong>, and <strong>Firestore</strong> to help developers get hired. Integrated features like user authentication, separate company and applicant dashboards, job posting, and job deleting.`
-		},
-		{
-			id: uuidv4(),
-			name: `<a href="https://github.com/msaaddev/jobboard">Jobboard</a>`,
-			desc: `Built a PWA with <strong>HTML, CSS, JavaScript, Next.js</strong>, <strong>Firebase Auth</strong>, and <strong>Firestore</strong> to help developers get hired. Integrated features like user authentication, separate company and applicant dashboards, job posting, and job deleting.`
-		},
-		{
-			id: uuidv4(),
-			name: `<a href="https://github.com/msaaddev/jobboard">Jobboard</a>`,
-			desc: `Built a PWA with <strong>HTML, CSS, JavaScript, Next.js</strong>, <strong>Firebase Auth</strong>, and <strong>Firestore</strong> to help developers get hired. Integrated features like user authentication, separate company and applicant dashboards, job posting, and job deleting.`
+			name: `<a href="https://github.com/hussnaindev/explore-games">ExploreGames</a>`,
+			desc: `Built a web app with <strong>HTML, CSS, JavaScript, React.js</strong>, utilizing the RAWG games API, enabling game enthusiasts to explore over 15,000 games and 800+ pages across different genres.`
 		}
 	],
 	accomplishments: [
-		`<a href="https://nextjs.org/conf/oct21/speakers/msaaddev">Speaker</a>, <a href="https://nextjs.org/conf">Next.js Global Community Conference</a> by Vercel, San Francisco (2021)`,
-		`Runner Up, Major League Hacking DevTools Hackathon, Worldwide (2020)`,
-		`Authored <a href="https://github.com/msaaddev/open-source">20+ open-source software</a>, including automation tools, node packages, and web apps. Also contributed code/content to many repos.`,
-		`Developed an open-source tool around Tailwind CSS that got featured in <a href="https://nodeweekly.com/issues/397">Node Weekly</a> and <a href="https://javascriptweekly.com/issues/547">JavaScript Weekly</a> newsletters (subscribed by half a million developers).`,
-		`Participating in Hactoberfest challenge since 2018.`
+		`I was one of the few students who got selected for National Outreach Program of LUMS based on exceptional academic background (July - 2018)`,
+		`I achieved 1st position in Matriculation at the school level and secured 2nd position in F.Sc Pre Engineering at the college level in 2017 and 2019 respectively.`
 	]
 };
 
