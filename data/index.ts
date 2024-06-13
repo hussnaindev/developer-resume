@@ -65,7 +65,8 @@ const userData: IData = {
 				`Demonstrated proficiency in various tools and technologies including Jest, AWS services, Datadog, and Helm Charts, enhancing project efficiency and reliability.`,
 				`Managed cronjobs and webhooks, ensuring scheduled tasks and real-time updates within the project ecosystem.`,
 				`Utilized Google Analytics and HubSpot for tracking user activities, setting up Google Ads conversion, and integrated FullStory for comprehensive user behavior analysis.`,
-				`Worked with LaunchDarkly for feature flagging, enabling controlled and phased feature releases within the application.`
+				`Worked with LaunchDarkly for feature flagging, enabling controlled and phased feature releases within the application.`,
+				'Developed a React Native application using Expo CLI for a real estate portal, focusing on seamless property browsing and user interaction. Implemented features like dynamic property listings, advanced search filters, and interactive maps for an enhanced user experience.'
 			]
 		},
 		{
@@ -89,8 +90,9 @@ const userData: IData = {
 		}
 	],
 	accomplishments: [
-		`I was one of the few students who got selected for National Outreach Program of LUMS based on exceptional academic background (July - 2018)`,
-		`I achieved 1st position in Matriculation at the school level and secured 2nd position in F.Sc Pre Engineering at the college level in 2017 and 2019 respectively.`
+		`One of the few students who got selected for National Outreach Program of LUMS based on exceptional academic background (July - 2018)`,
+		`Achieved 1st position in Matriculation at the school level and secured 2nd position in F.Sc Pre Engineering at the college level in 2017 and 2019 respectively.`,
+		`Published two npm packages with total downloads more than 500`
 	]
 };
 
