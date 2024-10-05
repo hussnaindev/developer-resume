@@ -15,7 +15,7 @@ const Education = () => {
 							<p>{value.location}</p>
 						</div>
 						<div className="flex justify-between">
-							<p>{value.degree}</p>
+							<p>{value.degree} ({`CGPA: ${value.cgpa}/4`})</p>
 							<em>{value.duration}</em>
 						</div>
 					</div>

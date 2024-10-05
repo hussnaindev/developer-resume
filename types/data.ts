@@ -13,6 +13,7 @@ export interface IData {
 		university: string;
 		location: string;
 		duration: string;
+		cgpa: string;
 	}[];
 	skills: {
 		id: string;

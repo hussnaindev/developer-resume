@@ -1,13 +1,13 @@
 import {
-	Header,
+	Accomplishments,
 	Education,
-	Skills,
 	Experience,
+	Header,
 	Projects,
-	Accomplishments
+	Skills
 } from '@/components';
-import Head from 'next/head';
 import data from '@/data';
+import Head from 'next/head';
 
 export default function Home() {
 	const title = `resume-${data.header.name
@@ -16,7 +16,7 @@ export default function Home() {
 		.join('-')}`;
 
 	return (
-		<>
+		<div>
 			<Head>
 				<title>{title}</title>
 			</Head>
@@ -28,6 +28,6 @@ export default function Home() {
 				{data.skills.length ? <Skills /> : null}
 				{data.accomplishments.length ? <Accomplishments /> : null}
 			</div>
-		</>
+		</div>
 	);
 }

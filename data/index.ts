@@ -16,7 +16,8 @@ const userData: IData = {
 			degree: 'B.Sc. of Computer Sciences',
 			university: 'University of Engineering & Technology',
 			location: 'Lahore, Pakistan',
-			duration: 'Oct 2019 - May 2023'
+			duration: 'Oct 2019 - May 2023',
+			cgpa: '3.5'
 		}
 	],
 	skills: [
@@ -29,71 +30,63 @@ const userData: IData = {
 			id: uuidv4(),
 			name: 'Technologies',
 			skill: [
+				'Node.js',
+				'React',
+				'Express.js',
+				'MongoDB',
+				'MySQL',
+				'REST APIs',
+				'Redux Toolkit',
 				'Git',
 				'HTML',
 				'CSS',
-				'React',
-				'Vue',
-				'Redux Toolkit',
-				'MySQL',
-				'MongoDB',
-				'Node.js',
 				'AWS',
-				'REST APIs'
+				'Google Cloud'
 			]
 		},
-		{
-			id: uuidv4(),
-			name: 'Soft Skills',
-			skill: ['Ownership', 'Rigor', 'Team work', 'Communication']
-		}
+		// {
+		// 	id: uuidv4(),
+		// 	name: 'Soft Skills',
+		// 	skill: ['Ownership', 'Rigor', 'Team work', 'Communication']
+		// }
 	],
 	experience: [
 		{
 			id: uuidv4(),
-			designation: 'Software Engineer',
+			designation: 'Software Engineer (MERN Stack)',
 			company: 'DHives',
-			location: 'Lahore, Pakistan',
-			duration: 'March 2023 - Present',
+			location: 'Kirkland, Washington',
+			duration: 'March 2023 - September 2024',
 			tasks: [
-				`Developed a Real Estate Portal using the MERN Stack, focusing on Mapbox Integration, Markers Clustering, State Management, Property Filters, and Layout Designing.`,
-				`Created a Content Creation Portal enabling users to generate, explore, and analyze social media content, integrating platforms such as YouTube, Meta (Facebook, Instagram), Tiktok and Twitter for post publishing and analytics.`,
-				`Managed database migrations utilizing the Sequelize library and collaborated with Chargify Service to oversee subscriptions and product payments`,
-				`Utilized AWS services including CloudWatch, Cognito, Secret Manager, Lambda, and SES, while implementing Logging, Request Tracing, and Monitoring within the project.`,
-				`Employed Datadog for custom metrics and monitoring, ensuring comprehensive performance analysis.`,
-				`Implemented Helm Charts for Deployments and employed Jest for mocking, unit testing, integration testing, and code coverage reports, ensuring robust and reliable project development.`,
-				`Demonstrated proficiency in various tools and technologies including Jest, AWS services, Datadog, and Helm Charts, enhancing project efficiency and reliability.`,
-				`Managed cronjobs and webhooks, ensuring scheduled tasks and real-time updates within the project ecosystem.`,
-				`Utilized Google Analytics and HubSpot for tracking user activities, setting up Google Ads conversion, and integrated FullStory for comprehensive user behavior analysis.`,
-				`Worked with LaunchDarkly for feature flagging, enabling controlled and phased feature releases within the application.`,
-				'Developed a React Native application using Expo CLI for a real estate portal, focusing on seamless property browsing and user interaction. Implemented features like dynamic property listings, advanced search filters, and interactive maps for an enhanced user experience.'
-			]
+				`Developed a scalable <strong>Real Estate Portal</strong> with the <strong>MERN stack</strong>, integrating <strong>Google Maps</strong> for geolocation and advanced property search to enhance user experience.`,
+				`Developed a content platform, <strong>The Idea Engine</strong>, using <strong>MongoDB</strong>, <strong>Express</strong>, <strong>React</strong>, and <strong>Node.js</strong>, integrating APIs for <strong>Facebook</strong>, <strong>Instagram</strong>, <strong>Twitter</strong>, and <strong>YouTube</strong> to enable seamless social media publishing and analytics.`,
+				`Optimized <strong>MongoDB</strong> queries by implementing indexing and restructuring clauses, resulting in a <strong>30%</strong> increase in page speed score from <strong>45%</strong> to <strong>75%</strong> using <strong>Lighthouse</strong>.`,
+				`Migrated over <strong>300 Chargify subscriptions</strong> from the development site to production with zero downtime, managing database migrations using <strong>Sequelize</strong> for seamless deployment.`
+			]			
 		},
 		{
 			id: uuidv4(),
 			designation: 'Software Engineer (Intern)',
 			company: '10Pearls',
-			location: 'Lahore, Pakistan',
+			location: 'Vienna, Virginia',
 			duration: 'June 2022 - August 2022',
 			tasks: [
-				`Successfully completed an 8-week internship, contributing to the development of 'PULSE,' a web portal for company employees, by implementing a carpooling feature using AngularJS and .NET technologies.`,
-				`Played a pivotal role in resolving bugs and addressing issues within the project framework, ensuring seamless functionality and an optimal user experience.`,
-				`Collaborated on the real-time project 'PULSE,' demonstrating proficiency in AngularJS and .NET while enhancing the platform with new features and functionalities.`
+				`Enhanced the <strong>PULSE</strong> employee management portal by integrating a carpooling feature to improve employee connectivity and collaboration.`,
+				'Fixed bugs and enhanced functionality, improving platform performance.'
 			]
 		}
 	],
 	projects: [
-		{
-			id: uuidv4(),
-			name: `<a href="https://github.com/hussnaindev/explore-games">ExploreGames</a>`,
-			desc: `Built a web app with <strong>HTML, CSS, JavaScript, React.js</strong>, utilizing the RAWG games API, enabling game enthusiasts to explore over 15,000 games and 800+ pages across different genres.`
-		}
+		// {
+		// 	id: uuidv4(),
+		// 	name: `<a href="https://github.com/hussnaindev/explore-games">ExploreGames</a>`,
+		// 	desc: `Built a web app with <strong>HTML, CSS, JavaScript, React.js</strong>, utilizing the RAWG games API, enabling game enthusiasts to explore over 15,000 games and 800+ pages across different genres.`
+		// }
 	],
 	accomplishments: [
-		`One of the few students who got selected for National Outreach Program of LUMS based on exceptional academic background (July - 2018)`,
-		`Achieved 1st position in Matriculation at the school level and secured 2nd position in F.Sc Pre Engineering at the college level in 2017 and 2019 respectively.`,
-		`Published two npm packages with total downloads more than 500`
-	]
+		`Published 3 <strong>npm packages</strong> with total downloads of <strong>1K+</strong>.`,
+		`Participated in <strong>Hacktoberfest</strong> twice and completed the <strong>Cloud Seeko Challenge</strong>, earning badges and rewards for contributions to <strong>open-source projects</strong>.`
+	]	
 };
 
 export default userData;
