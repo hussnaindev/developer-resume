@@ -6,7 +6,7 @@ const userData: IData = {
 		name: 'Muhammad Hussnain Raza',
 		phoneNumber: '+923180114290',
 		location: 'Lahore, Pakistan',
-		email: 'hussnain444all@gmail.com',
+		email: 'hussnain.444.work@gmail.com',
 		linkedIn: 'linkedin.com/in/hussnain-raza/',
 		github: 'github.com/hussnaindev'
 	},
