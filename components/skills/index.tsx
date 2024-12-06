@@ -11,7 +11,7 @@ const Skills = () => {
 			{skills.map(type => (
 				<div className="flex space-y-2" key={type.id}>
 					<h3 className="basis-1/3 font-semibold">{type.name}</h3>
-					<ul className="grid grid-cols-3">
+					<ul className="grid grid-cols-4">
 						{type.skill.map(skill => (
 							<div
 								key={skill}
