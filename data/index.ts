@@ -61,7 +61,7 @@ const userData: IData = {
 				`Developed a scalable <strong>Real Estate Portal</strong> with the <strong>MERN stack</strong>, integrating <strong>Google Maps</strong> for geolocation and advanced property search to enhance user experience.`,
 				`Developed a content platform, <strong>The Idea Engine</strong>, using <strong>MongoDB</strong>, <strong>Express</strong>, <strong>React</strong>, and <strong>Node.js</strong>, integrating APIs for <strong>Facebook</strong>, <strong>Instagram</strong>, <strong>Twitter</strong>, and <strong>YouTube</strong> to enable seamless social media publishing and analytics.`,
 				`Optimized <strong>MongoDB</strong> queries by implementing indexing and restructuring clauses, resulting in a <strong>30%</strong> increase in page speed score from <strong>45%</strong> to <strong>75%</strong> using <strong>Lighthouse</strong>.`,
-				`Migrated over <strong>300 Chargify subscriptions</strong> from the development site to production with zero downtime, managing database migrations using <strong>Sequelize</strong> for seamless deployment.`
+				`Migrated over <strong>5K+ Chargify subscriptions</strong> from the development site to production with zero downtime, managing database migrations using <strong>Sequelize</strong> for seamless deployment.`
 			]			
 		},
 		{
