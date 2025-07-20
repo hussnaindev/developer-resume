@@ -53,7 +53,19 @@ const userData: IData = {
 	experience: [
 		{
 			id: uuidv4(),
-			designation: 'Software Engineer (MERN Stack)',
+			designation: 'Software Engineer',
+			company: 'Codefinity Solutions',
+			location: 'Houston, Texas',
+			duration: 'Feb 2025 - Present',
+			tasks: [
+				`Worked on a large-scale <strong>Node.js</strong> data aggregation platform processing 200+ automated web data feeds for analytics and research.`,
+				`Built 20+ new ETL data feeds (e.g., <strong>amazon_bestsellers</strong>, <strong>water_com</strong>, <strong>ready_refresh</strong>, <strong>walmart_groceries</strong>) and maintained existing feeds by fixing bugs and resolving issues with proxy routing.`,
+				`Utilized automated data quality alerts to investigate and resolve anomalies (e.g., unexpected nulls, row counts, duplicates) by analyzing raw data in cloud storage, transformed data in BigQuery, and GCP Logs Explorer.`,
+			]
+		},
+		{
+			id: uuidv4(),
+			designation: 'Associate Software Engineer',
 			company: 'DHives',
 			location: 'Kirkland, Washington',
 			duration: 'March 2023 - September 2024',
@@ -62,7 +74,7 @@ const userData: IData = {
 				`Developed a content platform, <strong>The Idea Engine</strong>, using <strong>MongoDB</strong>, <strong>Express</strong>, <strong>React</strong>, and <strong>Node.js</strong>, integrating APIs for <strong>Facebook</strong>, <strong>Instagram</strong>, <strong>Twitter</strong>, and <strong>YouTube</strong> to enable seamless social media publishing and analytics.`,
 				`Optimized <strong>MongoDB</strong> queries by implementing indexing and restructuring clauses, resulting in a <strong>30%</strong> increase in page speed score from <strong>45%</strong> to <strong>75%</strong> using <strong>Lighthouse</strong>.`,
 				`Migrated over <strong>5K+ Chargify subscriptions</strong> from the development site to production with zero downtime, managing database migrations using <strong>Sequelize</strong> for seamless deployment.`
-			]			
+			]
 		},
 		{
 			id: uuidv4(),
@@ -86,7 +98,7 @@ const userData: IData = {
 	accomplishments: [
 		`Published 3 <strong>npm packages</strong> with total downloads of <strong>1K+</strong>.`,
 		`Participated in <strong>Hacktoberfest</strong> twice and completed the <strong>Cloud Seeko Challenge</strong>, earning badges and rewards for contributions to <strong>open-source projects</strong>.`
-	]	
+	]
 };
 
 export default userData;
