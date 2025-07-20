@@ -35,11 +35,11 @@ const userData: IData = {
 				'Express.js',
 				'MongoDB',
 				'MySQL',
-				'REST APIs',
-				'Redux Toolkit',
-				'Git',
-				'HTML',
-				'CSS',
+
+				'Big Query',
+				'Postgres',
+
+
 				'AWS',
 				'Google Cloud'
 			]
