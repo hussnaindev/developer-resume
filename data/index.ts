@@ -84,7 +84,6 @@ const userData: IData = {
 			duration: 'June 2022 - August 2022',
 			tasks: [
 				`Enhanced the <strong>PULSE</strong> employee management portal by integrating a carpooling feature to improve employee connectivity and collaboration.`,
-				'Fixed bugs and enhanced functionality, improving platform performance.'
 			]
 		}
 	],
@@ -96,8 +95,8 @@ const userData: IData = {
 		// }
 	],
 	accomplishments: [
-		`Published 3 <strong>npm packages</strong> with total downloads of <strong>1K+</strong>.`,
-		`Participated in <strong>Hacktoberfest</strong> twice and completed the <strong>Cloud Seeko Challenge</strong>, earning badges and rewards for contributions to <strong>open-source projects</strong>.`
+		// `Published 3 <strong>npm packages</strong> with total downloads of <strong>1K+</strong>.`,
+		// `Participated in <strong>Hacktoberfest</strong> twice and completed the <strong>Cloud Seeko Challenge</strong>, earning badges and rewards for contributions to <strong>open-source projects</strong>.`
 	]
 };
 
